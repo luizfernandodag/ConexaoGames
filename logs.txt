@@ -1,0 +1,95 @@
+Project:
+
+Projeto do web site para a loja Conexao games:
+
+logs:
+
+
+09/02/2021
+
+
+****** BEFORE CODING ***************
+1) Youtube tutorial: 
+    https://www.youtube.com/watch?v=YZvRrldjf1Y
+   " How to build an E-commerce website with Django and Python"
+
+2) Download VisualStudio 
+    - https://code.visualstudio.com/download
+
+3) Create a repository in GIT and local directory
+
+4) Set the repository to that directory
+
+ #mkdir ConexaoGames
+ #cd ConexaoGames
+ #echo " Conexao Games" >> README.md
+ #git init 
+ #git add *
+ #git commit -m " iniciando repositorio para a Conexao Games"
+ #git branch -M main
+ #git remote add origin git@github.com:luizfernandodag/ConexaoGames.git
+ #git push -u origin main
+ #echo "Project logs " >> logs.txt
+
+
+******** On Visual Studio ***************
+
+
+1) Clone the git project 
+   git clone https://github.com/justdjango/django-ecommerce.git
+
+2) move to the project on the terminal
+   cd django_project
+
+3) initialize the project on visual studio
+   code .
+    
+
+4) Create virtual enviroment
+   virtualenv env
+
+5) activate the virtual enviroment
+   source env/bin/activate
+
+3) install requirements using the requirements.txt file:
+
+   autopep8==1.4.4
+certifi==2019.3.9
+chardet==3.0.4
+defusedxml==0.6.0
+Django==2.2.14
+django-allauth==0.39.1
+django-countries==5.3.3
+django-crispy-forms==1.7.2
+django-debug-toolbar==1.10.1
+idna==2.8
+oauthlib==3.0.1
+pep8==1.7.1
+Pillow==6.2.2
+pycodestyle==2.5.0
+python-decouple==3.1
+python3-openid==3.1.0
+pytz==2018.5
+requests==2.21.0
+requests-oauthlib==1.2.0
+sqlparse==0.2.4
+stripe==2.27.0
+urllib3==1.24.2
+
+
+
+
+
+
+   
+         
+   
+
+
+
+
+ 
+
+
+
+
