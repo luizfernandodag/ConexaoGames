@@ -76,6 +76,65 @@ sqlparse==0.2.4
 stripe==2.27.0
 urllib3==1.24.2
 
+4) install the required libraries listed on the requeriments.txt file:
+    pip install -r requirements.txt
+
+*************** project start  ****************
+
+1) rename the project to the desired name:
+    terminal:
+       python manage.py rename djecommerce ConexaoGames
+
+2) test project - runserver
+       python3 manage.py runserver
+
+3)if there is no static_in_env directory 
+   Created on the VSSTUDIO GUI
+
+4) Django allauth for AUTHENTICATION
+   WEBSITE:
+       https://django-allauth.readthedocs.io/en/latest/installation.html
+   TERMINAL:
+   pip install django-allauth
+
+5) Set the AUTHENTICATION_BACKEND on the settings/base.py FILE
+
+
+	AUTHENTICATION_BACKENDS = [
+	    ...
+	    # Needed to login by username in Django admin,   regardless  of `allauth`
+	    'django.contrib.auth.backends.ModelBackend',
+
+	    # `allauth` specific authentication methods, such as login by e-mail
+	    'allauth.account.auth_backends.AuthenticationBackend',
+	    ...
+	]
+
+       INSTALLLED_APPS = [
+        .
+        .
+        .
+        django.contrib.sites',
+
+        'allauth',
+        'allauth.account',
+        'allauth.socialaccount',
+        .
+        .
+        .    
+
+	
+      ]
+
+
+
+
+
+
+
+
+   
+
 
 
 
